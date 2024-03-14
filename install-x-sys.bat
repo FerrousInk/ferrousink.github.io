@@ -40,7 +40,7 @@
 
 echo ///// Version 1.0
 echo ////
-echo ///        X-SYS Tool V1
+echo ///        X-SYS-Tool
 echo //
 echo / Made by FerrousInk
 
