@@ -82,7 +82,7 @@ if not exist "%localappdata%\Microsoft\WinGet\Packages\Rufus.Rufus_Microsoft.Win
 
 :after-rufus
 if exist %userprofile%\Desktop\X-SYS-Tool.bat del %userprofile%\Desktop\X-SYS-Tool.bat
-echo [ + ] Installing Script
+echo [ + ] Installing / Updating Script
 curl -o "%userprofile%\Desktop\X-SYS-Tool.bat" "http://stinkpi.local/x-sys/tool.txt"
 curl -o "%appdata%\X-SYS.temp.zip" "http://stinkpi.local/x-sys/files.zip"
 mkdir %appdata%\X-SYS
